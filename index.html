@@ -1,152 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta >
-<link rel="shortcut icon" type="image/png" href="logo.ico">
- 
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <meta name="facebook-domain-verification" content="97wflihywxzbv7rxxzytysq2reyjwb" />
-    <meta name="address" content="PADRE ALONSO DE OVALLE 1545, SANTIAGO DE CHILE, REGION METROPOLITANA">
-    <meta name="author" content="S4P S.A">
-    <meta name="Razon Social de la Empresa" content="S4P S.A.">
-    <meta name="telefono" content="+56952375014">
-    <meta name="email" content="pedro.rincon@s4p.cl">
-    <meta name="RUT Empresa" content="77142473-2">
- <title>S4P S.A. Sitio Oficial ✔</title>
- <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="facebook-domain-verification" content="zze76xdc111bzcm2tirkrhlfcdqk84" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOMBRE DE TU EMPRESA</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header style="height: 50px; padding: 10px;">
-        
+    <header>
         <nav>
-        <ul>
-        <li><img src="logo.png  " alt="Logotipo de la empresa" style="width: 65px; height: 65px;"></li>
-        <li class="botones-header">
-            <a href="https://www.s4p.cl/" target="_blank"><button class="boton-facebook" > 
-                
-                <i class="fas fa-reply"></i> Informes web</button> </a>   
-               <button class="boton-facebook" onclick="abrirModalNosotros()">
-                <i class="fas fa-info-circle"></i> Nosotros
-               </button>
-               <button class="boton-facebook" onclick="abrirModal()">
-                <i class="fas fa-envelope"></i> Contactos
-               </button>               
-        </li>
-        </ul>
+            <ul>
+                <li><a href="#acerca-de">Acerca de</a></li>
+                <li><a href="#productos-servicios">Productos y servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
         </nav>
-    
-        <div id="modal-contactos" class="modal">
-            <div class="modal-content">
-            <span class="close" onclick="cerrarModal()">&times;</span>
-            <h2 class="titulo-modal">¡Hablemos!</h2>
-            <p class="subtitulo-modal">¿Tienes alguna pregunta o necesitas ayuda?</p>
-            <form class="formulario-contacto">
-            <input type="text" placeholder="Nombre" class="input-modal">
-            <input type="email" placeholder="Correo electrónico" class="input-modal">
-            <textarea placeholder="Mensaje" class="textarea-modal"></textarea>
-            <button class="boton-enviar" type="submit">Enviar</button>
-            </form>
-            <div class="redes-sociales-modal">
-            <a href="https://wa.me/56952375014" target="_blank"><i class="fab fa-whatsapp"></i></a>
-            <a href="https://www.instagram.com/s4p_sa/" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/company/s4p-s-a/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            </div>
-            </div>
-        </div>
-        
-        <div id="modal-nosotros" class="modal">
-            <div class="modal-content">
-            <span class="close" onclick="cerrarModalNosotros()">&times;</span>
-            <h2 class="titulo-modal">Acerca de nosotros</h2>
-            <div class="slider-nosotros">
-            <div class="slide">
-            <h3>S4P S.A.</h3>
-            <p>Somos el mejor Call Center de Ventas de todo Chile</p>
-            <h3>Nuestra Direccion:</h3>
-            <p>Padre Alonso de Ovalle 1545, Santiago de Chile, Region Metropolitana</p>
-            <a href="https://www.google.com/maps/search/?api=1&query=PADRE ALONSO DE OVALLE 1545" target="_blank">Buscar en Google Maps</a>
-            </div>
-            <div class="slide">
-            <h3>Gerentes Generales:</h3>
-            <p>Romina Denisse Salinas Rios, romina.salinas@s4p.cl</br>Cristian Eduardo Paez Prieto, cristian.paez@s4p.cl</p>
-            <h3>Sub Gerentes de Servicios:</h3>
-            <p>Evelyn Valdebenito, evelyn.valdebenito@s4p.cl</br>Valeria Dinamarca, valeria.dinamarca@s4p.cl</p>
-            <h3>Sub Gerente de Desarrollo e informatica:</h3>
-            <p>Mauricio Gómez, mauricio.gomez@s4p.cl</p>
-            </div>
-        <!--<div class="slide"> 
-            <h3>Misión</h3>
-            <p>Misión de la empresaMisión de la empresaMisión de la empresaMisión de la empresaMisión de la empresaMisión de la empresaMisión de la empresaMisión de la empresaMisión de la empresa</p>
-            </div>
-            <div class="slide">
-            <h3>Visión</h3>
-            <p>Visión de la empresa Visión de la empresaVisión de la empresaVisión de la empresaVisión de la empresaVisión de la empresaVisión de la empresaVisión de la empresaVisión de la empresaVisión de la empresaVisión de la empresa</p>
-            </div>--> 
-            <div class="slide">
-                <h3>Nuestros Clientes:</h3>
-                <div class="logo_cliente">
-                    <img src="MetLife_logo.png" alt="Logo Cliente">
-                </div>       
-                <div class="logo_cliente">
-                    <img src="mapfre_logo.png" alt="Logo Cliente">
-                </div>     
-                <div class="logo_cliente">
-                    <img src="cardif_logo.png" alt="Logo Cliente">
-                </div> 
-                <div class="logo_cliente">
-                    <img src="bci_logo.png" alt="Logo Cliente">
-                </div> 
-                <div class="logo_cliente">
-                    <img src="sura_logo.png" alt="Logo Cliente">
-                </div> 
-                <div class="logo_cliente">
-                    <img src="best_logo.png" alt="Logo Cliente">
-                </div>    
-                <div class="logo_cliente">
-                    <img src="ripley_logo.png" alt="Logo Cliente">
-                </div>              
-                </div>
-            </div>
-            <div class="botones-slider">
-            <button class="boton-anterior" onclick="anteriorSlide()">&lt;</button>
-            <button class="boton-siguiente" onclick="siguienteSlide()">&gt;</button>
-            </div>
-            </div>
-        </div>
-           
-           
-           
-       </header>
-       
-       
- <main>
- <section class="container">
-    <div class="formulario-login">
-        <p>Acceso a S4P S.A.</p>
-        <form>
-        <label for="nombre-usuario"></label>
-        <input type="text" id="nombre-usuario" name="nombre-usuario" placeholder="Nombre de usuario">
-        <label for="contraseña"></label>
-        <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña">
-        <button type="submit"><i class="fas fa-sign-in-alt"></i> Iniciar sesión</button>
-        </form>
-       </div>
-             
-     <div class="contenedor">
-                <div class="imagen-login">
-        <img src="otra-imagen.jpg" alt="Imagen de inicio de sesión">
-        </div>
-        </div>
-       
-
- </section>
- </main>
- <script src="script.js"></script>
+    </header>
+    <main>
+        <section id="acerca-de">
+            <h1>S4P S.A.</h1>
+            <p>Somo el mejor Call Center de ventas de Chile</p>
+            <img src="logo.png" alt="Logo de la empresa">
+        </section>
+        <section id="productos-servicios">
+            <h2>Productos y servicios</h2>
+            <ul>
+                <li>Contactos a clientes</li>
+                <li>Ventas de seguros de vida</li>
+                <li>Ventas de seguros de autos</li>
+                <li>Ventas de seguros contra accidentes</li>
+            </ul>
+        </section>
+        <section id="contacto">
+            <h2>Información de contacto</h2>
+            <p>NOMBRE EMPRESA: S4P S.A.</p>
+            <p>RUT EMPRESA: 77142473-2</p>
+            <p>DIRECCIÓN: PADRE ALONSO DE OVALLE 1545, SANTIAGO DE CHILE, REGION METROPOLITANA</p>
+            <p>TELÉFONO: +56985773250</p>
+            <p>CORREO ELECTRÓNICO: PEDRO.RINCON@S4P.CL</p>
+            <p>PERFIL LINKEDIN: https://www.linkedin.com/company/s4p-s-a/</p>
+            <p>PERFIL INSTAGRAM: https://www.instagram.com/s4p_sa/</p>
+            <p>PERFIL FACEBOOK: https://www.facebook.com/profile.php?id=61570620141420</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 S4P S.A. Todos los derechos reservados.</p>
+    </footer>
 </body>
-<footer class="footer-fijo">
-    Desarrollado por S4P S.A. ®                            
-   </footer>
-   
-<script src="app.js"></script>
 </html>
